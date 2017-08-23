@@ -46,7 +46,7 @@ function AlteraRele4(){
 function AlteraRele5(){
     var estado_5 = document.getElementById("estado_5").innerHTML;
     if(estado_5 === "1"){
-        document.getElementById("botao_5").innerHTML="<a href='/STOP' class='botao_5'>STOP</a>";
+        document.getElementById("botao_5").innerHTML="<a href='/STOP' class='botao_5'></a>";
     } else {
         document.getElementById("botao_5").innerHTML="<a href='/STOP' class='botao_5'>STOP</a>";
     }
