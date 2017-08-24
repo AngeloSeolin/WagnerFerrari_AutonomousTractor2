@@ -9,7 +9,7 @@ FOOD, AGRICULTURAL, AND BIOLOGICAL ENGINEERING
 
 function AlteraRele1(){
     var estado = document.getElementById("estado").innerHTML;
-    if(estado === "1"){
+    if(estado === "0"){
         document.getElementById("botao").innerHTML="<a> </a>";
     } else {
         document.getElementById("botao").innerHTML="<a href='/Drive' class='botao'>Drive</a>";
@@ -45,7 +45,7 @@ function AlteraRele4(){
 
 function AlteraRele5(){
     var estado_5 = document.getElementById("estado_5").innerHTML;
-    if(estado_5 === "1"){
+    if(estado_5 === "0"){
         document.getElementById("botao_5").innerHTML="<a></a>";
     } else {
         document.getElementById("botao_5").innerHTML="<a href='/STOP' class='botao_5'>STOP</a>";
