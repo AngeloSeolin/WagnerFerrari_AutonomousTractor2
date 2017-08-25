@@ -10,10 +10,8 @@ FOOD, AGRICULTURAL, AND BIOLOGICAL ENGINEERING
 function AlteraRele1(){
     var estado = document.getElementById("estado").innerHTML;
         if(estado === "0"){
-            document.getElementById("estado").innerHTML="1";
-            document.getElementById("botao").innerHTML="<a href='/Drive' class='botao'>Drive</a>";
-        
         } else {
+            document.getElementById("estado").innerHTML="0";
             document.getElementById("botao").innerHTML="<a href='/Drive' class='botao'>Drive</a>";
         }
 }
@@ -46,12 +44,10 @@ function AlteraRele4(){
 }
 
 function AlteraRele5(){
-    var estado_5 = document.getElementById("estado_5").innerHTML;   
-        if(estado_5 === "1"){
-            document.getElementById("estado_5").innerHTML="1";
-            document.getElementById("botao_5").innerHTML="<a href='/STOP' class='botao'>STOP</a>";
-        
-        }else {
+    var estado_5 = document.getElementById("estado_5").innerHTML;
+        if(estado_5 === "0"){
+        } else {
+            document.getElementById("estado_5").innerHTML="0";
             document.getElementById("botao_5").innerHTML="<a href='/STOP' class='botao'>STOP</a>";
         }
 }
@@ -91,3 +87,5 @@ $('#onoff1').on('change', function() {
         else alert("Info gravada: " + msg);
     });
 });
+
+
